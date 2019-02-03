@@ -1,6 +1,8 @@
 #
-# Cookbook:: dd-ssh-bootstrap
+# Cookbook:: vaultssh_bootstrap
 # Recipe:: default
 #
-# Copyright:: 2019, The Authors, All Rights Reserved.
-include_recipe 'dd-ssh-bootstrap::ssh_bootstrap'
+
+vault_ssh 'mytrusted-keys' do
+  action :bootstrap
+end

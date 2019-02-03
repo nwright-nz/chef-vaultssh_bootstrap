@@ -1,4 +1,4 @@
-# dd-ssh-bootstrap
+# vaultssh_bootstrap
 
 TODO: Enter the cookbook description here.
 
