@@ -4,9 +4,9 @@ maintainer_email 'nigel.wright@dimensiondata.com'
 license 'Apache-2.0'
 description 'Sets up Vault SSH public key'
 long_description 'Sets up Vault SSH public key for use by the ssh secrets engine (signed certificate method)'
-version '1.0.0'
+version '1.0.1'
 chef_version '>= 13.0'
-
+supports 'ubuntu'
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
